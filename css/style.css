@@ -1,4 +1,5 @@
-/* Начальные стили */
+/* Начальные стили 
+===========================================*/
 
 body {
     font-family: 'Alfa Slab One', cursive;
@@ -133,4 +134,74 @@ a, a:hover, a:active, a:focus {
 
 .header__pharagraph > span {
     font-size: 60px;
+}
+
+/* Секция thumbnail 
+================================================*/
+
+.thumbnail__section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 75px 0px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.thumbnail__wrap {
+    width: 48%;
+    background: #ffc658 url(../img/Burger_1.jpg) no-repeat center center /cover;
+    height: 415px;
+    border-radius: 7px;
+    padding: 30px 0px 0px 26px;
+}
+
+.thumbnail__inner {
+    width: 48%;
+}
+
+.burger_1 {
+    height: 190px;
+    background: #ffc658 url(../img/Burger_2.jpg) no-repeat center center /cover;
+    margin-bottom: 35px;
+    border-radius: 7px;
+}
+
+.burger_2 {
+    height: 190px;
+    background: #ffc658 url(../img/Burger_3.jpg) no-repeat center center /cover;
+    border-radius: 7px;
+}
+
+.thumbnail__text {
+    color: #fff;
+    font-size: 23px;
+}
+
+.thumbnail__title {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.thumbnail__wrapper {
+    padding: 30px 0px 0px 26px;
+}
+
+.thumbnail__more {
+    width: 30%;
+}
+
+.thumbnail__link {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.thumbnail__link a{
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    padding: 15px 23px;
+    background-color: #ffc045;
 }
