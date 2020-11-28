@@ -78,3 +78,32 @@ a, a:hover, a:active, a:focus {
     opacity: 0.6;
 }
 
+.header__text {
+    text-transform: uppercase;
+    margin-top: 133px;
+}
+
+.header__desc {
+    padding: 15px 18px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 23px;
+    letter-spacing: 1px;
+    border: 3px dashed #3d2514;
+    display: inline-block;
+}
+
+.header__title {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 114px;
+    text-shadow: #fee8bc 1px 1px 0, #fee8bc 2px 2px 0, 
+                 #fee8bc 3px 3px 0, #fee8bc 4px 4px 0, 
+                 #fee8bc 5px 5px 0;
+}
+
+.header__subtitle {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 56px;
+    text-shadow: #fee8bc 1px 1px 0, #fee8bc 2px 2px 0, 
+                 #fee8bc 3px 3px 0, #fee8bc 4px 4px 0, 
+                 #fee8bc 5px 5px 0;
+}
