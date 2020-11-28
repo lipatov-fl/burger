@@ -138,70 +138,74 @@ a, a:hover, a:active, a:focus {
 
 /* Секция thumbnail 
 ================================================*/
-
-.thumbnail__section {
+.thumbnail__wrap {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    margin: 75px 0px;
-    text-transform: uppercase;
-    font-family: 'Bebas Neue', cursive;
+    flex-wrap: wrap;
+    margin-top: 30px;
 }
 
-.thumbnail__wrap {
-    width: 48%;
-    background: #ffc658 url(../img/Burger_1.jpg) no-repeat center center /cover;
-    height: 415px;
+.thumbnail__img {
+    width: 100%;
     border-radius: 7px;
-    padding: 30px 0px 0px 26px;
 }
 
 .thumbnail__inner {
-    width: 48%;
-}
-
-.burger_1 {
-    height: 190px;
-    background: #ffc658 url(../img/Burger_2.jpg) no-repeat center center /cover;
-    margin-bottom: 35px;
-    border-radius: 7px;
-}
-
-.burger_2 {
-    height: 190px;
-    background: #ffc658 url(../img/Burger_3.jpg) no-repeat center center /cover;
-    border-radius: 7px;
+    max-width: 596px;
+    position: relative;
 }
 
 .thumbnail__text {
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
     color: #fff;
-    font-size: 23px;
 }
 
-.thumbnail__title {
-    color: #fff;
-    font-size: 40px;
+.thumbnail__image {
+    border-radius: 7px;
+    width: 100%;
+}
+
+.thumbnail__box {
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.thumbnail__box:not(:first-child) {
+    margin-bottom: 0px;
+}
+
+.thumbnail__pharagraph {
+    font-size: 1.4375rem;
+}
+
+.thumbnail__subtitle {
+    font-size: 2.5rem;
     font-weight: 500;
 }
 
-.thumbnail__wrapper {
-    padding: 30px 0px 0px 26px;
+.thumbnail__text-box {
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
 }
 
-.thumbnail__more {
-    width: 30%;
+.thumbnail__holder {
+    display: flex;
+    justify-content: center;
+    margin: 72px 0px 40px 0px;
 }
 
 .thumbnail__link {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
-}
-
-.thumbnail__link a{
+    padding: 15px 24px;
+    background-color: #ffc045;
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
     font-size: 25px;
-    padding: 15px 23px;
-    background-color: #ffc045;
 }
