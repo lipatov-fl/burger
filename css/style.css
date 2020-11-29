@@ -98,7 +98,7 @@ a, a:hover, a:active, a:focus {
 
 .header__title {
     font-family: 'Alfa Slab One', cursive;
-    font-size: 114px;
+    font-size: 9vw;
     text-shadow: #fee8bc 1px 1px 0, #fee8bc 2px 2px 0, 
                  #fee8bc 3px 3px 0, #fee8bc 4px 4px 0, 
                  #fee8bc 5px 5px 0;
