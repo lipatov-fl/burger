@@ -36,9 +36,25 @@ a, a:hover, a:active, a:focus {
 /* Первый экран */
 
 .header {
-    height: 100vh;
-    background: #ffc658 url(../img/header-burger.jpg) no-repeat center center /cover;
+    /* height: 100vh; */
+    background: rgb(247,238,59);
+background: radial-gradient(circle, rgba(247,238,59,1) 0%, rgba(245,200,48,1) 75%);
     padding-top: 30px;
+}
+
+.header__wrap {
+    max-width: 705px;
+}
+
+.header__wrap-burger {
+    position: relative;
+    max-width: 705px;
+    text-align: right;
+}
+
+.header__wrap-burger img {
+    width: 80%;
+
 }
 
 .header__aside {
@@ -83,8 +99,11 @@ a, a:hover, a:active, a:focus {
 
 .header__text {
     text-transform: uppercase;
-    margin-top: 133px;
+    margin-top: 120px;
     position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .header__desc {
@@ -106,7 +125,7 @@ a, a:hover, a:active, a:focus {
 
 .header__subtitle {
     font-family: 'Alfa Slab One', cursive;
-    font-size: 56px;
+    font-size: 5vw;
     text-shadow: #fee8bc 1px 1px 0, #fee8bc 2px 2px 0, 
                  #fee8bc 3px 3px 0, #fee8bc 4px 4px 0, 
                  #fee8bc 5px 5px 0;
