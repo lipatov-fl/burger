@@ -1,0 +1,31 @@
+@media screen and (max-width:988px ) {
+	.header__navigation {
+        display: none;
+    }
+
+    .header__text {
+        margin-top: 50px;
+    }
+    }
+    
+    @media screen and (max-width:1250px ) {
+        .header__price {
+            display: none;
+        }
+        }
+
+        @media screen and (max-width:662px ) {
+            .header__wrap-burger {
+                width: 100%;
+                text-align: center;
+            }
+
+            .header__wrap {
+                text-align: center;
+                margin: 0px auto;
+            }
+
+            .header__logo {
+                margin: 0px auto;
+            }
+            }
