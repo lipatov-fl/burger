@@ -36,7 +36,6 @@ a, a:hover, a:active, a:focus {
 /* Первый экран */
 
 .header {
-    /* height: 100vh; */
     background: rgb(247,238,59);
     background: radial-gradient(circle, rgba(247,238,59,1) 0%, rgba(245,200,48,1) 75%);
     padding-top: 30px;
@@ -228,5 +227,38 @@ a, a:hover, a:active, a:focus {
     background-color: #ffc045;
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
-    font-size: 25px;
+    font-size: 1.5vw;
 }
+
+/* СЕКЦИЯ CHOOSE & ENJOY
+=================================================== */
+
+.choose {
+    text-align: center;
+    background-color: #fff;
+}
+
+.choose__title {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 4vw;
+    text-transform: uppercase;
+}
+
+.choose__pharagraph {
+    margin: 35px 0px;
+    font-size: 1.2vw;
+}
+
+.choose-burgers__wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.choose-burgers__inner {
+    width: 33.3%;
+}
+
+.choose-burgers__img {
+    width: 100%;
+}
+
