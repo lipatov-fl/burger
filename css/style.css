@@ -252,10 +252,11 @@ a, a:hover, a:active, a:focus {
 .choose-burgers__wrap {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .choose-burgers__inner {
-    max-width: 455px;
+    max-width: 455px;   
 }
 
 .choose-burgers__img {

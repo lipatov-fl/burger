@@ -8,24 +8,30 @@
     }
     }
     
-    @media screen and (max-width:1250px ) {
-        .header__price {
-            display: none;
-        }
-        }
+@media screen and (max-width:1250px ) {
+    .header__price {
+         display: none;
+    }
+    }
 
-        @media screen and (max-width:662px ) {
-            .header__wrap-burger {
-                width: 100%;
-                text-align: center;
-            }
+@media screen and (max-width:662px ) {
+    .header__wrap-burger {
+        width: 100%;
+        text-align: center;
+    }
 
-            .header__wrap {
-                text-align: center;
-                margin: 0px auto;
-            }
+    .header__wrap {
+        text-align: center;
+         margin: 0px auto;
+    }
 
-            .header__logo {
-                margin: 0px auto;
-            }
-            }
+    .header__logo {
+        margin: 0px auto;
+    }
+    }
+
+@media screen and (max-width:455px ) {
+    .choose-burgers__inner {
+       
+    }
+    }
