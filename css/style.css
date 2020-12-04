@@ -200,11 +200,11 @@ a, a:hover, a:active, a:focus {
 }
 
 .thumbnail__pharagraph {
-    font-size: 1.4375rem;
+    font-size: 25px;
 }
 
 .thumbnail__subtitle {
-    font-size: 2.5rem;
+    font-size: 45px;
     font-weight: 500;
 }
 

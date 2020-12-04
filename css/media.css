@@ -45,3 +45,13 @@
     }
     }
 
+@media screen and (max-width:560px ) {
+    .thumbnail__pharagraph {
+        font-size: 15px;
+    }
+        
+    .thumbnail__subtitle {
+        font-size: 25px;
+    }
+    }
+
