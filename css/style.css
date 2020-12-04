@@ -24,7 +24,6 @@ ul li {
 
 a, a:hover, a:active, a:focus {
 	text-decoration: none;
-    color: #3d2514;
 }
 
 .container {
@@ -77,6 +76,7 @@ a, a:hover, a:active, a:focus {
     margin-left: 70px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    color: #3d2514;
 }
 
 
@@ -90,6 +90,7 @@ a, a:hover, a:active, a:focus {
     font-family: 'Bebas Neue', cursive;
     font-size: 20px;
     letter-spacing: 3px;
+    color: #3d2514;
 }
 
 .header__tel:hover, .header__link:hover{
@@ -227,7 +228,11 @@ a, a:hover, a:active, a:focus {
     background-color: #ffc045;
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
-    font-size: 1.5vw;
+    color: #3d2514;
+}
+
+.thumbnail__link:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.76);
 }
 
 /* СЕКЦИЯ CHOOSE & ENJOY
@@ -240,13 +245,12 @@ a, a:hover, a:active, a:focus {
 
 .choose__title {
     font-family: 'Alfa Slab One', cursive;
-    font-size: 4vw;
+    font-size: 50px;
     text-transform: uppercase;
 }
 
 .choose__pharagraph {
     margin: 35px 0px;
-    font-size: 1.2vw;
 }
 
 .choose-burgers__wrap {
@@ -266,24 +270,28 @@ a, a:hover, a:active, a:focus {
 .choose-burgers__subject {
     font-family: 'Bebas Neue', cursive;
     text-transform: uppercase;
-    font-size: 1.8vw;
+    font-size: 37px;
     font-weight: 500;
 }
 
 .choose-burgers__pharagraph {
-    font-size: 1.2vw;
     margin-top: 20px;
 }
 
 .choose-burgers__holder {
-    margin: 38px 0px 70px 0px;
+    margin: 38px 0px 50px 0px;
+    display: flex;
+    justify-content: center;
 }
 
-.choose-burgers__holder > a {
+.choose-burgers__link {
     padding: 20px 40px;
     background-color: #bf2222;
     color: #fff;
     font-family: 'Alfa Slab One', cursive;
     text-transform: uppercase;
-    font-size: 1.4vw;
+}
+
+.choose-burgers__link:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.76);
 }
