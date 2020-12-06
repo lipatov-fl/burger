@@ -341,3 +341,20 @@ a, a:hover, a:active, a:focus {
     font-family: 'Bebas Neue', cursive;
     color: #fff;
 }
+
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 19px;
+}
+
+.footer__company {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.footer__widget {
+    margin-right: 5px;
+}

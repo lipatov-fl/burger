@@ -55,3 +55,27 @@
     }
     }
 
+@media screen and (max-width:758px ) {
+    .footer__callback, .footer__row {
+         flex-direction: column;
+    }
+
+    .footer__pharagraph {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .footer-callback__wrap {
+        width: 97%;
+    }
+
+    .footer__company {
+        margin-bottom: 10px;
+    }
+
+    .footer__logo {
+        width: 60%;
+        
+    }
+
+    }
