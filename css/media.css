@@ -8,7 +8,7 @@
     }
 
     .choose-burgers__inner {
-        width: 60%;
+        width: 100%;
     }
 
     .choose-burgers__wrap {
@@ -43,6 +43,7 @@
     .choose-burgers__subject {
         font-size: 25px;
     }
+
     }
 
 @media screen and (max-width:560px ) {
@@ -76,6 +77,10 @@
     .footer__logo {
         width: 60%;
         
+    }
+
+    .header__subtitle {
+        font-size: 12px;
     }
 
     }
